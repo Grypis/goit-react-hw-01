@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import css from "./FriendList.module.css";
+import css from "../FriendList/FriendList.module.css";
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
